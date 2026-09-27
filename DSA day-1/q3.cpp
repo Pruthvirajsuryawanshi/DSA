@@ -1,4 +1,4 @@
-//Prime number 
+//Prime number
 #include<bits/stdc++.h>
 using namespace std;
  
