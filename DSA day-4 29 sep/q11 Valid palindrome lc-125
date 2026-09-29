@@ -1,0 +1,22 @@
+class Solution {
+public:
+    bool isPalindrome(string s) {
+        vector<char>v1;
+        for(auto i:s){
+            if(isalnum(static_cast<unsigned char>(i))){
+                v1.emplace_back(tolower(i));
+            }
+        }
+        int l = 0;
+        int r = v1.size()-1;
+        while(l<r){
+            if(v1[l]!=v1[r]){
+                return false;
+            }
+            l++;
+            r--;
+        }
+
+    return true;
+    }
+};
