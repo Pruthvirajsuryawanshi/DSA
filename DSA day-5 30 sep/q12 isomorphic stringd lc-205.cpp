@@ -11,7 +11,8 @@ using namespace std;
 
                 map<char, char>mp1;
                 map<char, char>mp2;
-            for(int i=0;i<=s.length();i++){
+
+            for(int i=0;i<s.length();i++){
                 char a = s[i];
                 char b = t[i];
 
