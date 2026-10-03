@@ -19,6 +19,7 @@ This repository contains my daily DSA practice problems and the approaches used 
 | [Q9](DSA%20day-3%2028%20sep/q9%20LCM%20of%20Array.cpp) | Find the LCM of an array | Iterative accumulation using GCD and LCM |
 | [Q10](DSA%20day-3%2028%20sep/q10%20Luntik's%20Concerts%20%E2%80%93%20Minimum%20Duration%20Difference.cpp) | Luntik's Concerts: minimum duration difference | Mathematical observation and parity checking |
 | [Q11](DSA%20day-4%2029%20sep/q11%20Valid%20palindrome%20lc-125) | Valid Palindrome (LeetCode 125) | Alphanumeric filtering followed by the two-pointer approach |
+| [Q12](DSA%20day-7%202%20oct/sort%20character%20by%20frequency%20question%20lc-451.cpp) | Sort Characters by Frequency (LeetCode 451) | Count character frequencies, sort by frequency descending, then rebuild the string |
 
 ## Approaches by Category
 
@@ -29,6 +30,7 @@ This repository contains my daily DSA practice problems and the approaches used 
 - **Array reduction/accumulation:** Q9
 - **Two pointers:** Q11
 - **Mathematical observation:** Q10
+- **Frequency counting + sorting:** Q12
 
 ## Complexity Notes
 
@@ -39,3 +41,4 @@ This repository contains my daily DSA practice problems and the approaches used 
 - Digit counting: `O(log10(n))`
 - Two-pointer palindrome check: `O(n)`
 - Parity observation: `O(1)`
+- Frequency counting + sorting: `O(n + k log k)` where `k` is the number of distinct characters
